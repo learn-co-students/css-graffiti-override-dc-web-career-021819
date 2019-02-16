@@ -23,10 +23,10 @@
   display: none;
 }
 
-div:nth-child(2) #wall #tag-2 {
+div#wall #tag-2 {
   display: none;
 }
 
-div #wall #tag-3.slick #tag-3.wicked {
+div#wall #tag-3.slick.wicked {
   display: none;
 }
