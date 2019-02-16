@@ -1,1 +1,32 @@
 /* write your override styles here */
+#wall [class^="tag"], [id^="tag"] {
+    display: none;
+}
+
+.parent > div {
+    display: none;
+}
+
+.parent {
+    display: none;
+}
+
+#wall div {
+    display: none;
+}
+
+.parent, .slick {
+  display: none;
+}
+
+.parent > div:first-child {
+  display: none;
+}
+
+div#wall #tag-2 {
+  display: none;
+}
+
+div#wall #tag-3.slick.wicked {
+  display: none;
+}
